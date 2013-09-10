@@ -1,11 +1,11 @@
-name = Page
-description = All the stuff related to management and creation of the Page content type.
+name = KPU Page
+description = KPU Page.
 core = 7.x
 package = Features
 php = 5.2.4
 version = 7.x-1.0-dev
 project = imagex_page
-dependencies[] = common_fields
+dependencies[] = imagex_common_fields
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = metatag
