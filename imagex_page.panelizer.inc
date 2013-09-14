@@ -13,10 +13,10 @@ function imagex_page_panelizer_defaults() {
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default';
+  $panelizer->name = 'node:page:default';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -113,15 +113,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-1';
   $panelizer->display = $display;
-  $export['node:page_ct:default'] = $panelizer;
+  $export['node:page:default'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:default';
+  $panelizer->name = 'node:page:default:default';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -218,15 +218,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-4';
   $panelizer->display = $display;
-  $export['node:page_ct:default:default'] = $panelizer;
+  $export['node:page:default:default'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:diff_standard';
+  $panelizer->name = 'node:page:default:diff_standard';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -323,15 +323,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-7';
   $panelizer->display = $display;
-  $export['node:page_ct:default:diff_standard'] = $panelizer;
+  $export['node:page:default:diff_standard'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:full';
+  $panelizer->name = 'node:page:default:full';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -428,15 +428,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-10';
   $panelizer->display = $display;
-  $export['node:page_ct:default:full'] = $panelizer;
+  $export['node:page:default:full'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:rss';
+  $panelizer->name = 'node:page:default:rss';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -533,15 +533,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-13';
   $panelizer->display = $display;
-  $export['node:page_ct:default:rss'] = $panelizer;
+  $export['node:page:default:rss'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:search_index';
+  $panelizer->name = 'node:page:default:search_index';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -638,15 +638,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-16';
   $panelizer->display = $display;
-  $export['node:page_ct:default:search_index'] = $panelizer;
+  $export['node:page:default:search_index'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:search_result';
+  $panelizer->name = 'node:page:default:search_result';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -743,15 +743,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-19';
   $panelizer->display = $display;
-  $export['node:page_ct:default:search_result'] = $panelizer;
+  $export['node:page:default:search_result'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:teaser';
+  $panelizer->name = 'node:page:default:teaser';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -850,15 +850,15 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-22';
   $panelizer->display = $display;
-  $export['node:page_ct:default:teaser'] = $panelizer;
+  $export['node:page:default:teaser'] = $panelizer;
 
   $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
-  $panelizer->name = 'node:page_ct:default:token';
+  $panelizer->name = 'node:page:default:token';
   $panelizer->title = 'Default';
   $panelizer->panelizer_type = 'node';
-  $panelizer->panelizer_key = 'page_ct';
+  $panelizer->panelizer_key = 'page';
   $panelizer->no_blocks = FALSE;
   $panelizer->css_id = '';
   $panelizer->css = '';
@@ -955,7 +955,7 @@ function imagex_page_panelizer_defaults() {
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = 'new-25';
   $panelizer->display = $display;
-  $export['node:page_ct:default:token'] = $panelizer;
+  $export['node:page:default:token'] = $panelizer;
 
   return $export;
 }
