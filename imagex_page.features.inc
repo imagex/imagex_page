@@ -23,7 +23,7 @@ function imagex_page_ctools_plugin_api() {
  */
 function imagex_page_node_info() {
   $items = array(
-    'page_ct' => array(
+    'page' => array(
       'name' => t('Page'),
       'base' => 'node_content',
       'description' => '',
