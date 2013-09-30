@@ -100,6 +100,9 @@ function imagex_page_strongarm() {
         'redirect' => array(
           'weight' => '2',
         ),
+        'workbench_access' => array(
+          'weight' => '0',
+        ),
       ),
       'display' => array(),
     ),
