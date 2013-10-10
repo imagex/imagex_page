@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Page Permissions feature.
+ */
+
+include_once 'imagex_page_permissions.features.inc';
