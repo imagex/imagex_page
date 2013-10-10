@@ -6,9 +6,7 @@ This component defines the base Page content type with its default panelized lay
 
 The following listed modules and libraries below are required dependencies of this component.
 
-#### Modules
-
-* Contrib: [Common Fields](http://github.com/imagex/imagex_common_fields)
+* ImageX Component: [Common Fields](http://github.com/imagex/imagex_common_fields)
 
 ## License
 
