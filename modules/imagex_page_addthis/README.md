@@ -6,7 +6,7 @@ This extension module of the Page component provides the default AddThis integra
 
 The following listed modules and libraries below are required dependencies of this component.
 
-* ImageX Component: [AddThis](http://github.com/imagex/imagex_addthis)
+* ImageX Component: [AddThis](http://github.com/imagex/imagex_addthis) (>= 7.x-dev)
 
 ## License
 
