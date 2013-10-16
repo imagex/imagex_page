@@ -27,7 +27,7 @@ The fields defined by the Page content type within this component are:
 Extension modules are enhances for this component. They are:
 
 * **AddThis:** This extension module of the [Content Type] component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for Page content.
-* *Permissions:** This extension module of the [Content Type] component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
+* **Permissions:** This extension module of the [Content Type] component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
 * **Workflow:** This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for Page content.
 
 ## License
