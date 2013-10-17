@@ -7,6 +7,7 @@ project = imagex_page
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = imagex_common_fields
+dependencies[] = imagex_vocabulary_tags_field
 dependencies[] = metatag
 dependencies[] = panelizer
 dependencies[] = strongarm
