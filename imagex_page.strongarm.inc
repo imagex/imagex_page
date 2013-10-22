@@ -156,7 +156,7 @@ function imagex_page_strongarm() {
       'page_manager' => array(
         'status' => 1,
         'default' => 1,
-        'choice' => 1,
+        'choice' => 0,
       ),
       'default' => array(
         'status' => 0,
@@ -171,6 +171,13 @@ function imagex_page_strongarm() {
     ),
   );
   $export['panelizer_defaults_node_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_page_pattern';
+  $strongarm->value = '[node:title]';
+  $export['pathauto_node_page_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

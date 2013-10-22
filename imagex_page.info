@@ -50,6 +50,7 @@ features[variable][] = node_options_page
 features[variable][] = node_preview_page
 features[variable][] = node_submitted_page
 features[variable][] = panelizer_defaults_node_page
+features[variable][] = pathauto_node_page_pattern
 features[variable][] = scheduler_publish_enable_page
 features[variable][] = scheduler_publish_required_page
 features[variable][] = scheduler_publish_revision_page
