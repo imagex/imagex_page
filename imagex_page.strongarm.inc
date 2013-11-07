@@ -172,14 +172,14 @@ function imagex_page_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'panelizer_node:page_allowed_layouts';
-  $strongarm->value = 'O:22:"panels_allowed_layouts":4:{s:9:"allow_new";b:1;s:11:"module_name";s:19:"panelizer_node:page";s:23:"allowed_layout_settings";a:34:{s:8:"flexible";b:0;s:14:"twocol_stacked";b:0;s:13:"twocol_bricks";b:0;s:6:"twocol";b:0;s:25:"threecol_33_34_33_stacked";b:0;s:17:"threecol_33_34_33";b:0;s:25:"threecol_25_50_25_stacked";b:0;s:17:"threecol_25_50_25";b:0;s:6:"onecol";b:0;s:25:"mothership-html5page-page";b:0;s:9:"two_brick";b:1;s:16:"two_75_25_custom";b:1;s:9:"two_75_25";b:1;s:9:"two_66_33";b:1;s:6:"two_50";b:1;s:9:"two_33_66";b:1;s:9:"two_25_75";b:1;s:17:"three_inset_right";b:1;s:16:"three_inset_left";b:1;s:14:"three_50_25_25";b:1;s:10:"three_3x33";b:1;s:14:"three_25_50_25";b:1;s:14:"three_25_25_50";b:1;s:3:"one";b:1;s:9:"four_4x25";b:1;s:8:"three_33";b:1;s:6:"one_fw";b:1;s:7:"four_25";b:1;s:12:"two_50_mp_fw";b:1;s:14:"three_33_mp_fw";b:1;s:9:"one_mp_fw";b:1;s:9:"two_50_mp";b:1;s:11:"three_33_mp";b:1;s:6:"one_mp";b:1;}s:10:"form_state";N;}';
+  $strongarm->value = 'O:22:"panels_allowed_layouts":4:{s:9:"allow_new";b:1;s:11:"module_name";s:19:"panelizer_node:page";s:23:"allowed_layout_settings";a:27:{s:8:"flexible";b:0;s:14:"twocol_stacked";b:0;s:13:"twocol_bricks";b:0;s:6:"twocol";b:0;s:25:"threecol_33_34_33_stacked";b:0;s:17:"threecol_33_34_33";b:0;s:25:"threecol_25_50_25_stacked";b:0;s:17:"threecol_25_50_25";b:0;s:6:"onecol";b:0;s:25:"mothership-html5page-page";b:0;s:9:"two_brick";b:1;s:9:"two_66_33";b:1;s:6:"two_50";b:1;s:9:"two_33_66";b:1;s:17:"three_inset_right";b:1;s:16:"three_inset_left";b:1;s:14:"three_25_50_25";b:1;s:3:"one";b:1;s:8:"three_33";b:1;s:6:"one_fw";b:1;s:7:"four_25";b:1;s:12:"two_50_mp_fw";b:1;s:14:"three_33_mp_fw";b:1;s:9:"one_mp_fw";b:1;s:9:"two_50_mp";b:1;s:11:"three_33_mp";b:1;s:6:"one_mp";b:1;}s:10:"form_state";N;}';
   $export['panelizer_node:page_allowed_layouts'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'panelizer_node:page_allowed_layouts_default';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['panelizer_node:page_allowed_layouts_default'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -242,7 +242,6 @@ function imagex_page_strongarm() {
     'token-node:comment-count-new' => 'token-node:comment-count-new',
     'token-node:diff' => 'token-node:diff',
     'token-node:diff-markdown' => 'token-node:diff-markdown',
-    'token-node:menu-link' => 'token-node:menu-link',
     'token-node:nid' => 'token-node:nid',
     'token-node:vid' => 'token-node:vid',
     'token-node:title' => 'token-node:title',
@@ -259,6 +258,7 @@ function imagex_page_strongarm() {
     'token-node:uuid' => 'token-node:uuid',
     'token-node:vuuid' => 'token-node:vuuid',
     'token-node:workbench-access-sections' => 'token-node:workbench-access-sections',
+    'token-node:menu-link' => 'token-node:menu-link',
     'token-node:original' => 'token-node:original',
     'token-node:is-new' => 'token-node:is-new',
     'token-node:status' => 'token-node:status',
@@ -268,9 +268,11 @@ function imagex_page_strongarm() {
     'token-node:comment' => 'token-node:comment',
     'token-node:field-image' => 'token-node:field-image',
     'token-node:field-tags' => 'token-node:field-tags',
+    'token-node:field-radioactivity' => 'token-node:field-radioactivity',
+    'token-node:field_addthis' => 'token-node:field_addthis',
     'token-node:field_image' => 'token-node:field_image',
     'token-node:field_tags' => 'token-node:field_tags',
-    'token-node:field_addthis' => 'token-node:field_addthis',
+    'token-node:field_radioactivity' => 'token-node:field_radioactivity',
     'token-content-type:name' => 'token-content-type:name',
     'token-content-type:machine-name' => 'token-content-type:machine-name',
     'token-content-type:description' => 'token-content-type:description',
@@ -389,11 +391,6 @@ function imagex_page_strongarm() {
     'token-file-type:machine-name' => 'token-file-type:machine-name',
     'token-file-type:count' => 'token-file-type:count',
     'token-file-type:edit-url' => 'token-file-type:edit-url',
-    'token-menu:name' => 'token-menu:name',
-    'token-menu:machine-name' => 'token-menu:machine-name',
-    'token-menu:description' => 'token-menu:description',
-    'token-menu:menu-link-count' => 'token-menu:menu-link-count',
-    'token-menu:edit-url' => 'token-menu:edit-url',
     'token-site:name' => 'token-site:name',
     'token-site:slogan' => 'token-site:slogan',
     'token-site:mail' => 'token-site:mail',
@@ -442,6 +439,11 @@ function imagex_page_strongarm() {
     'token-rules_decimal:value' => 'token-rules_decimal:value',
     'token-rules_date:value' => 'token-rules_date:value',
     'token-rules_duration:value' => 'token-rules_duration:value',
+    'token-menu:name' => 'token-menu:name',
+    'token-menu:machine-name' => 'token-menu:machine-name',
+    'token-menu:description' => 'token-menu:description',
+    'token-menu:menu-link-count' => 'token-menu:menu-link-count',
+    'token-menu:edit-url' => 'token-menu:edit-url',
     'token-rules_config:id' => 'token-rules_config:id',
     'token-rules_config:label' => 'token-rules_config:label',
     'token-rules_config:plugin' => 'token-rules_config:plugin',
@@ -496,6 +498,7 @@ function imagex_page_strongarm() {
     'entity_form_field-node:field_image' => 'entity_form_field-node:field_image',
     'entity_form_field-node:field_tags' => 'entity_form_field-node:field_tags',
     'entity_form_field-node:field_addthis' => 'entity_form_field-node:field_addthis',
+    'entity_form_field-node:field_radioactivity' => 'entity_form_field-node:field_radioactivity',
     'entity_form_field-file:field_file_image_alt_text' => 'entity_form_field-file:field_file_image_alt_text',
     'entity_form_field-file:field_file_image_title_text' => 'entity_form_field-file:field_file_image_title_text',
     'entity_form_field-file:field_folder' => 'entity_form_field-file:field_folder',
@@ -504,6 +507,7 @@ function imagex_page_strongarm() {
     'entity_field-node:field_image' => 'entity_field-node:field_image',
     'entity_field-node:field_tags' => 'entity_field-node:field_tags',
     'entity_field-node:field_addthis' => 'entity_field-node:field_addthis',
+    'entity_field-node:field_radioactivity' => 'entity_field-node:field_radioactivity',
     'entity_field-file:field_file_image_alt_text' => 'entity_field-file:field_file_image_alt_text',
     'entity_field-file:field_file_image_title_text' => 'entity_field-file:field_file_image_title_text',
     'entity_field-file:field_folder' => 'entity_field-file:field_folder',
@@ -514,6 +518,7 @@ function imagex_page_strongarm() {
     'block-addthis-addthis_block' => 'block-addthis-addthis_block',
     'block-comment-recent' => 'block-comment-recent',
     'block-diff-inline' => 'block-diff-inline',
+    'block-menu-devel' => 'block-menu-devel',
     'block-menu-features' => 'block-menu-features',
     'block-nice_menus-1' => 'block-nice_menus-1',
     'block-nice_menus-2' => 'block-nice_menus-2',
@@ -534,6 +539,8 @@ function imagex_page_strongarm() {
     'block-views-workbench_current_user-block_1' => 'block-views-workbench_current_user-block_1',
     'block-views-workbench_edited-block_1' => 'block-views-workbench_edited-block_1',
     'block-views-9cf22433e0efbd8b206c8e4c2edb177c' => 'block-views-9cf22433e0efbd8b206c8e4c2edb177c',
+    'block-devel-execute_php' => 'block-devel-execute_php',
+    'block-devel-switch_user' => 'block-devel-switch_user',
     'entity_view-bean' => 'entity_view-bean',
     'entity_view-comment' => 'entity_view-comment',
     'entity_view-field_collection_item' => 'entity_view-field_collection_item',
@@ -543,6 +550,7 @@ function imagex_page_strongarm() {
     'entity_view-user' => 'entity_view-user',
     'entity_view-rules_config' => 'entity_view-rules_config',
     'menu_tree-_active' => 'menu_tree-_active',
+    'menu_tree-devel' => 'menu_tree-devel',
     'menu_tree-features' => 'menu_tree-features',
     'menu_tree-main-menu' => 'menu_tree-main-menu',
     'menu_tree-management' => 'menu_tree-management',
@@ -555,7 +563,7 @@ function imagex_page_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'panelizer_node:page_allowed_types_default';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['panelizer_node:page_allowed_types_default'] = $strongarm;
 
   $strongarm = new stdClass();
