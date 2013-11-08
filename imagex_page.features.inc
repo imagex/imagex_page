@@ -24,7 +24,7 @@ function imagex_page_node_info() {
     'page' => array(
       'name' => t('Page'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
