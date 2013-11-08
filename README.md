@@ -6,10 +6,22 @@ This component enables content management of the standard Page content and its l
 
 The following listed modules and libraries below are required dependencies of this component.
 
-#### Modules 
+#### Modules
 
 * ImageX Component: [Common Fields](http://github.com/imagex/imagex_common_fields)
 * ImageX Component: [Vocabulary Tags](http://github.com/imagex/imagex_vocabulary_tags)
+* ImageX Component: [Vocabulary Tags Field](http://github.com/imagex/imagex_vocabulary_tags_field)
+* ImageX Component: [ImageX Panels](http://github.com/imagex/imagex_panels)
+* Contrib: [Ctools](https://drupal.org/project/ctools)
+* Contrib: [Features](https://drupal.org/project/features)
+* Contrib: [Image](https://drupal.org/project/image)
+* Contrib: [Media](https://drupal.org/project/media)
+* Contrib: [Metatag](https://drupal.org/project/metatag)
+* Contrib: [Panelizer](https://drupal.org/project/panelizer)
+* Contrib: [Panels IPA](https://drupal.org/project/panels_ipe)
+* Contrib: [Strongarm](https://drupal.org/project/strongarm)
+* Contrib: [Taxonomy](https://drupal.org/project/taxonomy)
+* Contrib: [Text](https://drupal.org/project/text)
 
 ### Fields
 
@@ -21,6 +33,7 @@ The fields defined by the Page content type within this component are:
 * URL Path settings
 * Metatags
 * Tags
+* Image
 
 ### Extension Modules
 
