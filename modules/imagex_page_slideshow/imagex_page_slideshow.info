@@ -1,0 +1,13 @@
+name = Imagex Page Slideshow
+description = Slideshow field for Page
+core = 7.x
+package = ImageX
+version = 7.x-1.0
+project = imagex_page_slideshow
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = imagex_page
+dependencies[] = imagex_splash_image
+dependencies[] = inline_entity_form
+features[features_api][] = api:2
+features[field_instance][] = node-page-field_splash
