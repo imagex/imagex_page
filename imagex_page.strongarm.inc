@@ -157,12 +157,12 @@ function imagex_page_strongarm() {
       'default' => array(
         'status' => 0,
         'default' => 1,
-        'choice' => 1,
+        'choice' => 0,
       ),
       'teaser' => array(
         'status' => 0,
         'default' => 1,
-        'choice' => 1,
+        'choice' => 0,
       ),
     ),
   );
