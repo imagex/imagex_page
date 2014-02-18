@@ -184,7 +184,7 @@ function imagex_page_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -219,6 +219,8 @@ function imagex_page_field_default_field_instances() {
   t('Comment');
   t('Image');
   t('Tags');
+
+  features_alter_code('field_instance', $field_instances);
 
   return $field_instances;
 }
