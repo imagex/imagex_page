@@ -26,7 +26,6 @@ features[field_instance][] = node-page-field_image
 features[field_instance][] = node-page-field_tags
 features[node][] = page
 features[panelizer_defaults][] = node:page:default
-features[variable][] = additional_settings__active_tab_page
 features[variable][] = comment_anonymous_page
 features[variable][] = comment_default_mode_page
 features[variable][] = comment_default_per_page_page
