@@ -13,13 +13,6 @@ function imagex_page_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'additional_settings__active_tab_page';
-  $strongarm->value = 'edit-workflow';
-  $export['additional_settings__active_tab_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'comment_anonymous_page';
   $strongarm->value = 0;
   $export['comment_anonymous_page'] = $strongarm;
@@ -82,16 +75,16 @@ function imagex_page_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '9',
+          'weight' => '7',
         ),
         'title' => array(
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '7',
+          'weight' => '5',
         ),
         'redirect' => array(
-          'weight' => '8',
+          'weight' => '6',
         ),
         'workbench_access' => array(
           'weight' => '1',
@@ -594,23 +587,25 @@ function imagex_page_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'scheduler_publish_moderation_state_page';
-  $strongarm->value = 'published';
-  $export['scheduler_publish_moderation_state_page'] = $strongarm;
+  $strongarm->name = 'print_display_comment_page';
+  $strongarm->value = 0;
+  $export['print_display_comment_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'scheduler_unpublish_default_time_page';
-  $strongarm->value = '';
-  $export['scheduler_unpublish_default_time_page'] = $strongarm;
+  $strongarm->name = 'print_display_page';
+  $strongarm->value = 1;
+  $export['print_display_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'scheduler_unpublish_moderation_state_page';
-  $strongarm->value = 'draft';
-  $export['scheduler_unpublish_moderation_state_page'] = $strongarm;
+  $strongarm->name = 'print_display_urllist_page';
+  $strongarm->value = 1;
+  $export['print_display_urllist_page'] = $strongarm;
+
+  features_alter_code('variable', $export);
 
   return $export;
 }
